@@ -12,5 +12,9 @@ namespace POS.Controllers
         {
             return View();
         }
+        public IActionResult AllVendors()
+        {
+            return View();
+        }
     }
 }
