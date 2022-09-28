@@ -33,5 +33,31 @@ namespace POS.Controllers
         {
             return View();
         }
+        public IActionResult UserDetail()
+        {
+            // 1st Object
+            Users Admin = new Users();
+            Admin.Id = 1;
+            Admin.FirstName = "ABC";
+            Admin.LastName = "XYZ";
+            Admin.Email = "abc@gmail.com";
+            Admin.Password = "12345";
+            Admin.Gender = 1;
+            ViewBag.AdminDetail = Admin;
+            // 2nd Object
+            Users Client = new Users
+            {
+                Id = 2,
+                FirstName = "Momin",
+                LastName = "XYZ",
+                //  Email = "momin@gmail.com",
+                Password = "123456789",
+                Gender = 2
+            };
+            ViewBag.ClientDetail = Client;
+            return View();
+        }
+
+
     }
 }
