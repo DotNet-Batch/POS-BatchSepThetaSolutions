@@ -87,7 +87,7 @@ namespace POS.Controllers
             ViewBag.ClientDetail = Client;
             return View();
         }
-
+        
 
     }
 }

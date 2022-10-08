@@ -2,18 +2,15 @@
 
 namespace POS.Models
 {
-    public class Users
+    public class Items
     {
         [Key]
         public int Id { get; set; }
-        public string? FirstName { get; set; }
-        public string? LastName { get; set; }
-        [Required]
-        [EmailAddress]
-        public string? Email { get; set; }
-        public int Gender { get; set; }
-        public string? Password { get; set; }
-
+        public string? ItemName { get; set; }
+        public string? ItemCode { get; set; }
+        public decimal Price { get; set; }
+        public decimal Qunatity { get; set; }
+        public int Serial { get; set; }
         // mandatory fields
         public int Status { get; set; }
         public DateTime CreatedDate { get; set; }
