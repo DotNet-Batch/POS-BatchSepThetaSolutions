@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\Theme\vendors\popper.js\packages\**" />
+    <Content Remove="wwwroot\Theme\vendors\popper.js\packages\**" />
+    <EmbeddedResource Remove="wwwroot\Theme\vendors\popper.js\packages\**" />
+    <None Remove="wwwroot\Theme\vendors\popper.js\packages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.8" />
@@ -1830,96 +1837,6 @@
     <None Include="wwwroot\Theme\vendors\popper.js\docs\_sass\libs\_vars.scss" />
     <None Include="wwwroot\Theme\vendors\popper.js\LICENSE.md" />
     <None Include="wwwroot\Theme\vendors\popper.js\MENTIONS.md" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\babel-config\index.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\babel-config\yarn.lock" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\bundle\index.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\bundle\yarn.lock" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\eslint-config-popper\index.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\eslint-config-popper\yarn.lock" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\bower-publish.sh" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\bundle.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\index.js.flow" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\README.md" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\index.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\methods\defaults.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\methods\destroy.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\methods\disableEventListeners.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\methods\enableEventListeners.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\methods\placements.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\methods\update.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\modifiers\applyStyle.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\modifiers\arrow.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\modifiers\computeStyle.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\modifiers\flip.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\modifiers\hide.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\modifiers\index.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\modifiers\inner.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\modifiers\keepTogether.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\modifiers\offset.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\modifiers\preventOverflow.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\modifiers\shift.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\clockwise.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\computeAutoPlacement.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\debounce.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\find.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\findCommonOffsetParent.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\findIndex.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getBordersSize.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getBoundaries.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getBoundingClientRect.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getClientRect.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getFixedPositionOffsetParent.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getOffsetParent.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getOffsetRect.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getOffsetRectRelativeToArbitraryNode.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getOppositePlacement.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getOppositeVariation.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getOuterSizes.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getParentNode.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getPopperOffsets.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getReferenceOffsets.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getRoot.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getScroll.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getScrollParent.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getStyleComputedProperty.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getSupportedPropertyName.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getViewportOffsetRectRelativeToArtbitraryNode.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getWindow.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\getWindowSizes.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\includeScroll.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\index.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\isBrowser.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\isFixed.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\isFunction.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\isIE.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\isModifierEnabled.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\isModifierRequired.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\isNumeric.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\isOffsetContainer.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\removeEventListeners.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\runModifiers.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\setAttributes.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\setStyles.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\popper\src\utils\setupEventListeners.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\test-utils\setup.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\test-utils\utils\appendNewPopper.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\test-utils\utils\appendNewRef.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\test-utils\utils\customEventPolyfill.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\test-utils\utils\getRect.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\test-utils\utils\isMSBrowser.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\test-utils\utils\makeConnectedElement.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\test-utils\utils\makeConnectedScrollElement.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\test-utils\utils\makeElement.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\test-utils\utils\prepend.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\test-utils\utils\simulateScroll.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\test-utils\utils\then.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\test-utils\yarn.lock" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\test\bin\karma.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\test\karma.conf.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\test\README.md" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\tooltip\bundle.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\tooltip\src\index.js" />
-    <None Include="wwwroot\Theme\vendors\popper.js\packages\tooltip\yarn.lock" />
     <None Include="wwwroot\Theme\vendors\popper.js\README.md" />
     <None Include="wwwroot\Theme\vendors\popper.js\yarn.lock" />
     <None Include="wwwroot\Theme\vendors\selectFX\fonts\codropsicons\codropsicons.svg" />
@@ -1934,11 +1851,6 @@
     <None Include="wwwroot\Theme\vendors\themify-icons\fonts\themify.svg" />
     <None Include="wwwroot\Theme\vendors\themify-icons\ie7\ie7.js" />
     <None Include="wwwroot\Theme\vendors\themify-icons\README.md" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <TypeScriptCompile Include="wwwroot\Theme\vendors\popper.js\packages\popper\index.d.ts" />
-    <TypeScriptCompile Include="wwwroot\Theme\vendors\popper.js\packages\tooltip\index.d.ts" />
   </ItemGroup>
 
 </Project>

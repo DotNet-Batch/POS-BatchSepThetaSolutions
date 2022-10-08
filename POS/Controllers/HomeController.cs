@@ -15,6 +15,28 @@ namespace POS.Controllers
 
         public IActionResult Index()
         {
+            try
+            {
+                // error
+                try
+                {
+                    int num1 = 10;
+                    int num2 = 0;
+                    int result = num1 / num2;
+                }
+                catch (Exception ex)
+                {
+
+                    ViewBag.Error = "Some error occured. Please consult your owner " + ex.Message;
+                    //throw;
+                    return View();
+                }
+            }
+            catch(Exception ex)
+            {
+                // throw handle
+            }
+           
             return View();
         }
 
@@ -31,6 +53,14 @@ namespace POS.Controllers
 
         public IActionResult Dashboard()
         {
+            try
+            {
+                return View();
+            }
+            catch
+            {
+
+            }
             return View();
         }
         public IActionResult UserDetail()
