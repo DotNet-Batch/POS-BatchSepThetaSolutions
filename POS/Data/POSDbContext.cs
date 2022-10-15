@@ -13,7 +13,7 @@ namespace POS.Data
         public DbSet<Items> Items { get; set; } 
         public DbSet<ItemCategories> ItemCategories { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder bauilder)
+        protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
         }
