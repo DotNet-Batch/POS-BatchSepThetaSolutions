@@ -2,7 +2,7 @@
 
 namespace POS.Models
 {
-    public class Users
+    public class AppUsers
     {
         [Key]
         public int Id { get; set; }
